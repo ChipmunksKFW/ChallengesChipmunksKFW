@@ -45,3 +45,10 @@ Wir pushen 4 Images: application_api, application_frontend, application_mongo-se
 
 `docker tag <image_name>:<tag> chipmunks.azurecr.io/<image_name>:<tag>`
 `docker push chipmunks.azurecr.io/<image_name>:<tag>`
+
+die 4 sind so
+
+docker pull chipmunks.azurecr.io/application_api:quang1
+docker pull chipmunks.azurecr.io/application_frontend:quang1
+docker pull chipmunks.azurecr.io/application_mongo-seed:quang1
+docker pull chipmunks.azurecr.io/mongo:5
