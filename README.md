@@ -1,12 +1,5 @@
 # Application
 
-## Befehle zum Pushen der Docker Images
-
-Wir pushen 4 Images: application_api, application_frontend, application_mongo-seed, mongo:5.
-
-`docker tag <image_name>:<tag> chipmunks.azurecr.io/<image_name>:<tag>`
-`docker push chipmunks.azurecr.io/<image_name>:<tag>`
-
 ## Intro
 
 Muster Änderung - Quang
@@ -38,9 +31,17 @@ Die Applikation besteht im wesentlichen aus drei Seiten
 
 <img src="./application/docs/dobib.app.png">
 
-##COment
+##Comment
 
 # Documentation
 
 > Ihr könnt hier eure Dokumentation zu den Herausforderungen hinzufügen oder euch im Team auf eine eigene Dokumentations Struktur einigen
 
+--
+
+## Befehle zum Pushen der Docker Images
+
+Wir pushen 4 Images: application_api, application_frontend, application_mongo-seed, mongo:5.
+
+`docker tag <image_name>:<tag> chipmunks.azurecr.io/<image_name>:<tag>`
+`docker push chipmunks.azurecr.io/<image_name>:<tag>`
