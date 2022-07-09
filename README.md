@@ -78,3 +78,7 @@ Pull:
 https://docs.microsoft.com/en-us/azure/container-registry/container-registry-authentication?tabs=azure-cli#admin-account
 
 `az acr login --name chipmunks --expose-token`
+
+
+
+///
