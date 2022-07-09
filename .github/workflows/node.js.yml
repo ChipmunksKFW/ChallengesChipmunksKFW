@@ -12,6 +12,16 @@ on:
 jobs:
 
   build:
+  
+    defaults:
+      run:
+        working-directory: application/${{ matrix.project }}
+
+    strategy:
+      matrix:
+        node-version: [14.x]
+        # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
+        project: [frontend, api, db-seed, docs]        
 
     runs-on: ubuntu-latest
     
