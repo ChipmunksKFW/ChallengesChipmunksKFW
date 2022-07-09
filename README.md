@@ -41,14 +41,21 @@ Die Applikation besteht im wesentlichen aus drei Seiten
 
 ## Befehle zum Pushen der Docker Images
 
+Docs: [https://docs.microsoft.com/en-us/azure/container-registry/container-registry-get-started-portal?tabs=azure-cli](https://docs.microsoft.com/en-us/azure/container-registry/container-registry-get-started-portal?tabs=azure-cli)
+
+Login:
+
+`az login`
+`az acr login --name chipmunks`
+
 Wir pushen 4 Images: application_api, application_frontend, application_mongo-seed, mongo:5.
 
 `docker tag <image_name>:<tag> chipmunks.azurecr.io/<image_name>:<tag>`
 `docker push chipmunks.azurecr.io/<image_name>:<tag>`
 
-die 4 sind so
+Pull:
 
-docker pull chipmunks.azurecr.io/application_api:quang1
-docker pull chipmunks.azurecr.io/application_frontend:quang1
-docker pull chipmunks.azurecr.io/application_mongo-seed:quang1
-docker pull chipmunks.azurecr.io/mongo:5
+`docker pull chipmunks.azurecr.io/application_api:quang1`
+`docker pull chipmunks.azurecr.io/application_frontend:quang1`
+`docker pull chipmunks.azurecr.io/application_mongo-seed:quang1`
+`docker pull chipmunks.azurecr.io/mongo:5`
