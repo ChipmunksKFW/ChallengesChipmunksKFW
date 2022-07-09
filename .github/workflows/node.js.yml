@@ -21,7 +21,7 @@ jobs:
       matrix:
         node-version: [14.x]
         # See supported Node.js release schedule at https://nodejs.org/en/about/releases/
-        project: [frontend, api, db-seed, docs]        
+        project: [frontend, api, db-seed]        
 
     runs-on: ubuntu-latest
     
