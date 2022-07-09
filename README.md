@@ -71,3 +71,10 @@ Pull:
 `terraform init`
 
 `terraform apply`
+
+
+## Docker login for az 
+
+https://docs.microsoft.com/en-us/azure/container-registry/container-registry-authentication?tabs=azure-cli#admin-account
+
+`az acr login --name chipmunks --expose-token`
