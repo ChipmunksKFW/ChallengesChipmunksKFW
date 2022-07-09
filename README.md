@@ -8,6 +8,7 @@ Es handelt sich um eine (ältere) "three-tier" Applikation mit frontend, api, da
 Für diesen Hackathon dient die Applikation nur als Mittel zum Zweck, und die Entwicklung an der Applikation steht hier **nicht** im Fokus. Aus DevOps Sicht ist es trotzdem relevant zu wissen, wie die Architektur der Applikation aussieht und welche Technologien eingesetzt werden, da ihr bei dem Deployment und den Operationstätigkeiten unterstützen sollt.
 
 Ich bin ganz Deiner Meinung!
+Quang und Michael sind meine Helden!
 
 ## Architektur und Verzeichnis Struktur
 
