@@ -32,5 +32,5 @@ jobs:
         username: chipmunks123
         password: d9WLDH23kCplW+JwasvJTCIHxGbDabsB
     - run: |
-        docker build -f DockerFile . -t chipmunks123.azurecr.io/${{ matrix.project }}:${{ github.sha }}
+        docker build -f DockerFile .
         docker push chipmunks123.azurecr.io/${{ matrix.project }}:${{ github.sha }}
