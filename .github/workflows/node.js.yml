@@ -26,12 +26,12 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
     - uses: azure/docker-login@v1
       with:
         login-server: chipmunks123.azurecr.io
         username: chipmunks123
         password: d9WLDH23kCplW+JwasvJTCIHxGbDabsB
     - run: |
-        docker build -f Dockerfile chipmunks123.azurecr.io/${{ matrix.project }}:${{ github.sha }}
+        docker build -f Dockerfile -t chipmunks123.azurecr.io/${{ matrix.project }}:${{ github.sha }}
         docker push chipmunks123.azurecr.io/${{ matrix.project }}:${{ github.sha }}
