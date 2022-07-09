@@ -43,6 +43,6 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           push: true
-          tags: repo/${{ matrix.project }}:${{ github.sha }}
-          context: .
+          tags: chipmunks123.azurecr.io/${{ matrix.project }}:${{ github.sha }}
+          context: ./application/${{ matrix.project }}
           file: ${{ matrix.project }}/Dockerfile
