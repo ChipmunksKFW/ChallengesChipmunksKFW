@@ -64,3 +64,9 @@ Pull:
 `docker pull chipmunks.azurecr.io/application_mongo-seed:quang1`
 
 `docker pull chipmunks.azurecr.io/mongo:5`
+
+## Terraform
+
+`terraform init`
+
+`terraform apply`
