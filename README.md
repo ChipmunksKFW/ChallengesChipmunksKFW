@@ -1,5 +1,12 @@
 # Application
 
+## Befehle zum Pushen der Docker Images
+
+Wir pushen 4 Images: application_api, application_frontend, application_mongo-seed, mongo:5.
+
+`docker tag <image_name>:<tag> chipmunks.azurecr.io/<image_name>:<tag>`
+`docker push chipmunks.azurecr.io/<image_name>:<tag>`
+
 ## Intro
 
 Muster Änderung - Quang
