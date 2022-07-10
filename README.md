@@ -79,6 +79,10 @@ https://docs.microsoft.com/en-us/azure/container-registry/container-registry-aut
 
 `az acr login --name chipmunks --expose-token`
 
-
-
 ///
+
+## App Service Plan mit Multicontainern
+
+`az appservice plan create --name chipmunksAppServicePlan --resource-group group --sku B2 --is-linux`
+
+`az webapp create --resource-group group --plan chipmunksAppServicePlan --name chipmunksApp --multicontainer-config-type compose --multicontainer-config-file application/docker-compose.webapp.yml`
