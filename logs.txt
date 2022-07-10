@@ -1,0 +1,10 @@
+bib entfernt und url angepasst in webapp.yml
+
+
+bereitsstellungscenter mit der richtigen Datei angepasst
+
+
+url in app center besucht https://chipmunksapp.azurewebsites.net/
+
+logs in protokolstream unten link im menu angeguckt
+
